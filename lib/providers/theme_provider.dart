@@ -8,15 +8,14 @@ class ThemeProvider with ChangeNotifier {
 
   ThemeData get currentTheme => _isDarkMode ? _darkTheme : _lightTheme;
 
-  // Définir la couleur bleu-vert (teal)
-  static const Color _blueGreenColor = Color(0xFF008080); // teal
+  static const Color _blueGreenColor = Color(0xFF008080); 
 
   static final ThemeData _lightTheme = ThemeData(
     brightness: Brightness.light,
     primarySwatch: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
-      color: _blueGreenColor, // couleur bleu-vert pour l'AppBar
+      color: _blueGreenColor, 
       foregroundColor: Colors.white,
     ),
   );
@@ -26,7 +25,7 @@ class ThemeProvider with ChangeNotifier {
     primarySwatch: Colors.blue,
     scaffoldBackgroundColor: Colors.grey[900],
     appBarTheme: const AppBarTheme(
-      color: _blueGreenColor, // couleur bleu-vert pour l'AppBar sombre aussi
+      color: _blueGreenColor, 
       foregroundColor: Colors.white,
     ),
   );
