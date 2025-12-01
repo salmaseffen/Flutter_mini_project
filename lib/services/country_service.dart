@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/country.dart';
-
 class CountryService {
   Future<List<Country>> getAllCountries() async {
     try {
