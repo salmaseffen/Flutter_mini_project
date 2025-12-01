@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'providers/country_provider.dart';
 import 'providers/theme_provider.dart';
 import 'screens/home_screen.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
