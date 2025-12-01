@@ -20,7 +20,6 @@ class Country {
     final String flagUrl = flags is Map<String, dynamic>
         ? (flags['png'] ?? flags['svg'] ?? '')
         : (json['flag'] ?? '');
-
     return Country(
       name: json['name'] ?? 'Unknown',
       capital: json['capital'] ?? 'No capital',
