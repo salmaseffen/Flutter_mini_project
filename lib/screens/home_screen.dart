@@ -17,7 +17,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Liste des titres pour l'AppBar selon l'onglet
     final appBarTitles = ['Country Explorer', 'Mes Favoris'];
 
     return Scaffold(
