@@ -1,16 +1,46 @@
-# country_explorer
+🌍 Country Explorer – Flutter App
 
-A new Flutter project.
+Country Explorer est une application mobile Flutter permettant de découvrir facilement les pays du monde, avec leurs informations complètes et une interface moderne.
 
-## Getting Started
+📱 Fonctionnalités
+🔹 Fonctionnalités principales
 
-This project is a starting point for a Flutter application.
+      -Liste des pays : Affichage en grille des drapeaux et noms des pays.
 
-A few resources to get you started if this is your first Flutter project:
+      -Détails complets : Page dédiée avec capitale, région, population, code, etc.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+      -Actualisation : Pull-to-refresh pour recharger les données.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+      -Gestion d'état : Implémentation avec Provider.
+
+🔹 Fonctionnalités bonus
+
+     🔍 Recherche de pays
+
+    ⭐ Système de favoris avec stockage local
+
+    🌙 Mode clair / sombre
+
+    🔄 Tri des pays (nom, population, région…)
+
+    🎨 Animations personnalisées pour une meilleure expérience utilisateur
+
+    🛠️ Technologies utilisées
+
+Flutter – Framework mobile cross-platform
+
+Dart – Langage de programmation
+
+Provider – Gestion d’état globale
+
+HTTP – Consommation de l’API REST
+
+API Countries : https://www.apicountries.com/
+
+📋 Prérequis
+
+   Flutter SDK (version 3.0 ou supérieure)
+
+   Dart SDK
+
+   Un émulateur Android/iOS ou un appareil physique
