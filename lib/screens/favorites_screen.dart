@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/country_provider.dart';
 import '../widgets/country_card.dart';
+
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});
 
