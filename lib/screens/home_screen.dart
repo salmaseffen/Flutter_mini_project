@@ -4,6 +4,7 @@ import '../providers/country_provider.dart';
 import '../widgets/country_card.dart';
 import '../providers/theme_provider.dart';
 import '../screens/favorites_screen.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
