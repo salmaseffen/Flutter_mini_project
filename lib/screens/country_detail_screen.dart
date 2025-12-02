@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/country.dart';
+
 class CountryDetailScreen extends StatefulWidget {
   final Country country;
 
